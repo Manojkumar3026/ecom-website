@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Book Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+       
+        <div class="cart">
+            <span>Cart: <span id="cart-count">0</span> items</span>
+        </div>
+    </header>
+    
+    <main>
+        <section class="products">
+            <div class="box">
+                <img class=" man"src="book 1.jpg" alt="Product 1" >
+                <h2>SYMMETRY</h2>
+                <p>$10.00</p>
+                <button onclick="addToCart()">Add to Cart </button>
+            </div>
+            <div class="box">
+                <img class="man"src="book 2.jfif" alt="Product 2" >
+                <h2>GEOMETRY</h2>
+                <p>$20.00</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="box">
+                <img class="man"src="34.jpg" alt="Product 3" >
+                <h2>1-DIMENSIONAL</h2>
+                <p>$30.00</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+             <div class="box">
+                <img  class="man"src="4.jpg" alt="Product 4">
+                <h2>AUTUMNSTYLE</h2>
+                <p>$40.00</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+             <div class="box">
+                <img class="man"src="5.jpg" alt="Product 5"width=400px>
+                <h2>3-DIMENSIONAL </h2>
+                <p>$50.00</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </section>
+        <p>
+            <a class="aa" href="https://www.amazon.in/s?k=bookstore&adgrpid=1328211653865022&hvadid=83013487349368&hvbmt=be&hvdev=c&hvlocphy=143962&hvnetw=o&hvqmt=e&hvtargid=kwd-83014107828181%3Aloc-90&hydadcr=12675_2193879&msclkid=b8b7b337e45616881f86d5adde44291c&tag=msndeskstdin-21&ref=pd_sl_1by8mgu7uh_e">Book Store</a>
+        </p>
+        <div class="t">
+            <h3>Contact us</h3>
+            <p>9080343545</p>
+            <p>bookstore@gmail.com</p>
+            <p style="margin-top: 20px;font-size: 10px ;"> We had a better idea — give readers the convenience of online shopping while supporting independent bookstores at the same time.
+            </p>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
